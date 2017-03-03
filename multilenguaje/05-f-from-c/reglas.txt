@@ -3,5 +3,5 @@ gfortran -c f-main.f90 -o f-main.o
 gcc -c c-main.c -o c-main.o
 
 # Linkeo
-
+gcc c-main.o f-sum.o -o f-from-c.e
 
