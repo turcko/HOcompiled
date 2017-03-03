@@ -1,4 +1,3 @@
-
 ! sum up absolute of "num" integers in array "inp", store result in "asum" 
 subroutine sum_abs(inp, num, asum)
   implicit none

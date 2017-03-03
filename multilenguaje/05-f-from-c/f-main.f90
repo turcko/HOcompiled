@@ -8,6 +8,6 @@ program testsum
     data(i) = i-100
   end do
 
-  call sum_abs(data,n,asum)
+  call sum_abs_(data,n,asum)
   print*, 'sum=',asum
 end program testsum 

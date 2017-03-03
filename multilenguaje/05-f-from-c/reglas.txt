@@ -1,0 +1,7 @@
+# Generación de objetos
+gfortran -c f-main.f90 -o f-main.o 
+gcc -c c-main.c -o c-main.o
+
+# Linkeo
+
+
